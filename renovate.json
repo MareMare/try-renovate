@@ -3,6 +3,7 @@
   "extends": [
     "config:base"
   ],
+  "assigneesFromCodeOwners": true,
   "configMigration": true,
   "labels": ["dependencies"],
   "prHourlyLimit": 0,
@@ -15,8 +16,7 @@
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true,
-      "platformAutomerge": true,
-      "dependencyDashboardApproval": true
+      "platformAutomerge": true
     }
   ]
 }
