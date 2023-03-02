@@ -3,5 +3,10 @@
   "extends": [
     "config:base"
   ],
-  "prHourlyLimit": 3
+  "assigneesFromCodeOwners": true,
+  "configMigration": true,
+  "labels": ["dependencies"],
+  "prHourlyLimit": 3,
+  "reviewersFromCodeOwners": true,
+  "timezone": "Asia/Tokyo"
 }
