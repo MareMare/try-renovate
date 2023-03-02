@@ -8,5 +8,12 @@
   "labels": ["dependencies"],
   "prHourlyLimit": 3,
   "reviewersFromCodeOwners": true,
-  "timezone": "Asia/Tokyo"
+  "schedule": "before 5am every weekday",
+  "timezone": "Asia/Tokyo",
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ]
 }
