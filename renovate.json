@@ -2,5 +2,11 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "local>MareMare/renovate-config"
+  ],
+  "packageRules": [
+    "groupName": "microsoft-identity-web",
+    "matchSourceUrlPrefixes": [
+      "https://github.com/AzureAD/microsoft-identity-web"
+    ]
   ]
 }
