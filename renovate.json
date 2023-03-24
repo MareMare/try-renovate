@@ -5,6 +5,11 @@
   ],
   "packageRules": [
     {
+      "description": "Automerge non-major updates",
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
       "groupName": "microsoft-identity-web",
       "matchSourceUrlPrefixes": [
         "https://github.com/AzureAD/microsoft-identity-web"
