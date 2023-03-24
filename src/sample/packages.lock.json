@@ -74,11 +74,11 @@
       },
       "Microsoft.Identity.Web.UI": {
         "type": "Direct",
-        "requested": "[2.5.0, )",
-        "resolved": "2.5.0",
-        "contentHash": "GVZxQUSku/eIjKuZzqJ/1O7pdyDxoy6aGlx54PvDLjClTiRudTHiNSFnKbgBg3v/RKy0w707SKJXTc8bgb9I2A==",
+        "requested": "[2.6.1, )",
+        "resolved": "2.6.1",
+        "contentHash": "TIN4xgyBJc122b/XP6uZPMaaAyD6vNq6BxyrJFV0Qkhsw7e+GEDxFTBbdzSrkVOpCc8PcAaKZNcemjsnS/QI4Q==",
         "dependencies": {
-          "Microsoft.Identity.Web": "2.5.0"
+          "Microsoft.Identity.Web": "2.6.1"
         }
       },
       "Serilog.AspNetCore": {
