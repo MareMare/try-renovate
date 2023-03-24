@@ -64,12 +64,12 @@
       },
       "Microsoft.Identity.Web.MicrosoftGraph": {
         "type": "Direct",
-        "requested": "[2.5.0, )",
-        "resolved": "2.5.0",
-        "contentHash": "c8DycgO2Pk8jVhC8ZSQk7eGrCSIIuqEG6QamEb3XT4KsTJezZ/15RRhaCDJa9Onrlh5Bbr2TFJfbvmXn+gp/4w==",
+        "requested": "[2.6.1, )",
+        "resolved": "2.6.1",
+        "contentHash": "O2PQC1upMKJ78UqWjNHk7idtqwu6U9sFV+ItmWad3qZzOKhREhag3aGO3MhwMjDmXzI9Menv33FxKx6f+S6BGQ==",
         "dependencies": {
           "Microsoft.Graph": "4.34.0",
-          "Microsoft.Identity.Web.TokenAcquisition": "2.5.0"
+          "Microsoft.Identity.Web.TokenAcquisition": "2.6.1"
         }
       },
       "Microsoft.Identity.Web.UI": {
