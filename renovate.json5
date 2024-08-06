@@ -1,18 +1,23 @@
 {
-  "extends": [
-    "github>MareMare/renovate-config"
+  extends: [
+    'github>MareMare/renovate-config',
   ],
-  "packageRules": [
+  packageRules: [
     {
-      "description": "Automerge non-major updates",
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
+      description: 'Automerge non-major updates',
+      matchUpdateTypes: [
+        'minor',
+        'patch',
+        'pin',
+        'digest',
+      ],
+      automerge: true,
     },
     {
-      "groupName": "microsoft-identity-web",
-      "matchSourceUrlPrefixes": [
-        "https://github.com/AzureAD/microsoft-identity-web"
-      ]
-    }
-  ]
+      groupName: 'microsoft-identity-web',
+      matchSourceUrls: [
+        'https://github.com/AzureAD/microsoft-identity-web{/,}**',
+      ],
+    },
+  ],
 }
