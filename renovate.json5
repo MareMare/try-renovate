@@ -20,4 +20,10 @@
       ],
     },
   ],
+  "dotnet": {
+    "enabled": true,
+    "constraints": {
+      "sdk": "8.0.404"
+    }
+  }
 }
