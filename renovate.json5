@@ -24,7 +24,6 @@
     "enabled": true,
     "constraints": {
       "sdk": "8.0.404"
-    },
-    "binarySource": "install"
+    }
   }
 }
