@@ -38,7 +38,7 @@ jobs:
     #     echo "→ ${{ steps.cache-nuget.outputs.cache-hit }}"
 
     - name: ✨ Setup .NET
-      uses: actions/setup-dotnet@v4
+      uses: actions/setup-dotnet@v5
       with:
         dotnet-version: ${{ env.DOTNET_CORE_VERSION }}
     # - name: 🏦 Restore with lock files
